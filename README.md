@@ -1,3 +1,33 @@
+
+# N3 Protocol & Persistent Memory Layer
+
+> A lightweight, zero-bloat template for AI coding assistants. Combines a deterministic 4-phase engineering protocol with a persistent Markdown-based memory layer to eliminate LLM amnesia and prevent technical debt.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DevEx: Standard](https://img.shields.io/badge/DevEx-Standard-emerald.svg)]()
+
+---
+
+## The Problem
+Standard AI coding assistants suffer from:
+* **Context Amnesia:** Loss of architectural decisions across sessions.
+* **Failure Loops:** Repeatedly attempting previously discarded solutions.
+* **Code Bloat:** Skipping safety and design checks for rapid generation.
+
+---
+
+## The Solution
+
+```text
+.
+├── .github/
+│   └── agente-instructions.md    # Master system instructions (N3 Protocol)
+├── manifesto/                     # Core principles & system boundaries
+├── learning/                      # Confidence metrics, penalties & validated rewards
+├── logs/                          # ADRs, failure autopsies & simulations
+└── memory/                        # Causal, procedural & immutable vault data
+
+
 # N3-Protocol & Persistent Memory Layer
 
 A template repository providing a deterministic first-principles workflow and a persistent Markdown memory layer for AI coding assistants.
