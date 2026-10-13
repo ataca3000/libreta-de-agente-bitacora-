@@ -15,6 +15,7 @@ Standard AI coding assistants suffer from:
 * **Code Bloat:** Skipping safety and design checks for rapid generation.
 
 ---
+<img width="749" height="328" alt="image" src="https://github.com/user-attachments/assets/fc0d8d99-1f76-49f1-a5fd-bc9b033a8c59" />
 
 ## The Solution
 
